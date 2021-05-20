@@ -1,0 +1,292 @@
+@font-face {
+    font-family: "fingerpaint";
+    src: url(../assets/finger-paint_[allfont.ru].ttf);
+  }
+
+@font-face {
+  font-family: "actorregular";
+  src: url(../assets/actor-regular.ttf);
+}
+
+img {
+    width: 100%;
+  }
+  
+  .container {
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  body {
+    background-color: #b4b4b4;   
+  }
+
+  .gallery {
+    /* width: 100vw; */
+    display: flex; 
+    flex-direction: row; 
+  }
+
+  .gallery2 {
+    /* width: 100vw; */
+    display: flex; 
+    flex-direction: row;  
+  }
+
+  .example {
+    width: 20vw;
+    margin-bottom: 20px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+  }
+
+  .example2 {
+    width: 22vw;
+    margin-bottom: 20px;
+    position: relative;
+    left: 650px;
+    top: -120px;
+    
+    
+  }
+
+
+  .example3 {
+    width: 25vw;
+    margin-bottom: 20px;
+    position: relative;
+    left: 380px;
+    top: -120px;
+  }
+  .example4 {
+    width: 35vw;
+    margin-bottom: 20px;
+    position: relative;
+    left: 900px;
+    top: -360px;
+   
+    
+  }
+
+
+
+
+// @font-face{
+//     font-family: "MADE Sunflower";
+//     src: url('../assets/MADE-Sunflower.otf');
+// }
+
+// body {
+//     background-color: #AEAEAE;
+//     font-family: "MADE Sunflower";
+
+//     @media (min-width: 550px) {
+//         background-color: rgb(131, 207, 207);
+//     }
+//     @media (min-width: 750px) {
+//         background-color: rgb(72, 192, 192);
+//     }
+
+
+// }
+
+
+// img {
+//     width: 100%;
+// }
+
+// .container {
+//     padding: 20px;
+// }
+
+// .top {
+//     height: 300px;
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     h1 {
+//         color: rgb(255, 255, 255);
+//         font-size: 36px;
+//         transform: rotateZ(15deg);
+
+//         @media (min-width: 550px) {
+//             font-size: 4vw;
+           
+//         }
+    
+//     }
+// }
+
+// .gallery {
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 20px;
+   
+//     @media (min-width: 550px) {
+//         flex-direction: row;
+//         justify-content: space-between;
+//     }
+
+//     &-top-image {
+//         width: 100%;
+//         margin-bottom: 20px;
+
+//         @media (min-width: 550px) {
+//             width: 49%;
+//             clip-path: polygon(50% 0%, 55% 31%, 100% 43%, 89% 74%, 58% 58%, 32% 100%, 19% 59%, 0% 43%, 21% 22%);
+//         }
+    
+//     }
+//     &-top-image:hover {
+//         @media (min-width: 550px) {
+//             width: 49%;
+//             clip-path: polygon(50% 0%, 55% 31%, 100% 43%, 89% 74%, 58% 58%, 32% 100%, 19% 59%, 0% 43%, 21% 22%);
+//         }
+    
+//     }
+
+       
+
+//     &-second-images {
+//         display: flex;
+//         justify-content: space-between;
+
+//         @media (min-width: 550px) {
+//             width: 49%;
+//           }
+      
+//     }
+
+//     &-second-image-s {
+//         width: 36%;
+//     }
+
+//     &-second-image-m {
+//         width: 60%;
+//     }
+// }
+
+// .about {
+//     width: 100%;
+
+//     p {
+//         font-size: 17px;
+//         line-height: 126%;
+
+//         @media (min-width: 550px) {
+//            font-size: 4vw;
+//            line-height: 5vw;
+//     }
+// }
+// }
+
+
+// .contacts {
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+
+//     &-headline {
+//         height: 300px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+    
+
+//         h2 {
+//             color: rgb(255, 255, 255);
+//             font-size: 36px;
+//             transform: rotateZ(15deg);
+//             @media (min-width: 550px) {
+//                font-size: 4vw;
+//                animation: blur 1s infinite alternate;
+               
+//         }
+       
+//     }
+    
+//     }
+//     @keyframes blur {
+//         from{
+//             filter: blur(1px);
+//                 } to {
+//             filter: blur(20px);
+            
+//                 }
+//     }
+    
+
+
+//     &-buttons {
+//         width: 100%;
+//         display: flex;
+//         flex-direction: column;
+
+//         a {
+//             text-decoration: none;
+//         }
+//         @media (min-width: 550px) {
+//            flex-direction: row;
+//            justify-content: center;
+//            align-items: center;
+//          }
+//     }
+
+//     &-button {
+//         background-color: rgb(18, 163, 168);
+//         border: 1px solid black;
+//         border-radius: 18px;
+//         padding: 22px;
+//         margin-bottom: 20px;
+//         font-size: 24px;
+//         text-align: center;
+//         color: black;
+
+//         @media (min-width: 550px) {
+//            margin: 1vw;
+//            width: 25vw;
+//         }
+//     }
+
+//     &-button:hover {
+//         opacity: 0.5;
+//     }
+
+   
+// }
+// .check-this {
+//     background-color: rgb(175, 147, 201);
+//     width: 100px;
+//     height: 100px;
+//     border-radius: 50%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     position: fixed;
+//     top: 500px;
+//     right: 300px;
+//     box-shadow: 0px 4px 14px;
+
+//     a {
+//         text-decoration: none;
+//        color: rgb(255, 255, 255);
+//     }
+
+
+// }
+// @keyframes blur {
+//     from{
+//         filter: blur(1px);
+//             } to {
+//         filter: blur(20px);
+        
+//             }
+// }
+    

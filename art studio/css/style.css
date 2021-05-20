@@ -1,0 +1,417 @@
+
+  img {
+    width: 100%;
+  }
+  .container {
+      width: 100vw;
+      min-height: 60vh;
+  }
+  @font-face {
+      font-family: “fingerpaint”;
+      src: url(../assets/finger-paint_[allfont.ru].ttf);
+    }
+  @font-face {
+    font-family: “actorregular”;
+    src: url(../assets/actor-regular.ttf);
+  }
+      body {
+        background-color: #E5E5E5;
+        
+      }
+      @media (min-width: 750px) {
+          body {
+            background-color: #555D6F;
+          }
+        }
+  .top {
+    height: 14vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .lines {
+    display: flex;
+    width: 864px;
+    height: 800px;
+    background-image: url(../imgs/lines.png);
+  }
+  .name {
+    display: inline-block;
+    width: 466px;
+    height: 113px;
+    background-image: url(../imgs/art\ studio.svg);
+    }
+  .blots {
+    display: block;
+  top: 186px;
+  left: -355px;
+  width: 113.38px;
+  height: 100.64px;
+  background-image: url(../imgs/blots.png);
+}
+
+.topics{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    height: 70vh;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+.column {
+  flex: 1;
+  height: 135%;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 750px) {
+  .column {
+      border-right: 1px solid #E5E5E5;
+      
+  }
+}
+.title {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  align-items: center;
+  justify-content: center;
+}
+.zine {
+  width: 45%;
+  margin-bottom: 20px;
+}
+.tshirt {
+  width: 60%;
+  margin-bottom: 20px;
+}
+.poster {
+  width: 74%;
+  margin-bottom: 20px;
+}
+.column5 {
+  flex: 1;
+  height: 135%;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 750px) {
+  .column5 {
+      border-right: 1px solid #E5E5E5;
+      
+  }
+}
+.work {
+  width: 75%;
+  margin-bottom: 20px;
+}
+.game {
+  width: 48%;
+  margin-bottom: 20px;
+}
+.setofposters {
+  width: 65%;
+  margin-bottom: 20px;
+}
+.column2 {
+  flex: 1;
+  height: 135%;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
+@media (min-width: 750px) {
+  .column2 {
+      border-right: 1px solid #E5E5E5;
+      display: flex;
+      
+  }
+}
+.sketch {
+  position: relative;
+  width: 50%;
+  left: -45px;
+  top: 1px;
+  transform: rotate(-15deg);
+  
+}
+.sketch2 {
+  position: relative;
+  width: 28%;
+  left: 70px;
+  top: -80px;
+  transform: rotate(10deg);
+}
+.sketch3 {
+  position: relative;
+  width: 75%;
+  left: 0px;
+  top: -100px;
+  transform: rotate(7deg);
+}
+.sketch4 {
+  position: relative;
+  width: 55%;
+  left: -55px;
+  top: -180px;
+  transform: rotate(-8deg);
+}
+.sketch5 {
+  position: relative;
+  width: 30%;
+  left: 4px;
+  top: -325px;
+  transform: rotate(-5deg);
+}
+.sketch6 {
+  position: relative;
+  width: 75%;
+  left: 8px;
+  top: -330px;
+  transform: rotate(26deg);
+}
+.sketch7 {
+  position: relative;
+  width: 80%;
+  left:-17px;
+  top: -400px;
+  transform: rotate(-4deg);
+}
+.sketch8 {
+  position: relative;
+  width: 50%;
+  left: 45px;
+  top: -530px;
+  transform: rotate(10deg);
+}
+.sketch9 {
+  position: relative;
+  width: 25%;
+  left: -80px;
+  top: -550px;
+  transform: rotate(-30deg);
+}
+.sketch10 {
+  position: relative;
+  width: 78%;
+  left: 1px;
+  top: -755px;
+  transform: rotate(-12deg);
+}
+.sketch11 {
+  position: relative;
+  width: 40%;
+  left: -30px;
+  top: -960px;
+  transform: rotate(-2deg);
+}
+.sketch12 {
+  position: relative;
+  width: 50%;
+  left: 40px;
+  top: -1005px;
+  transform: rotate(2deg);
+}
+.content {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.column3 {
+  flex: 1;
+  height: 135%;
+  border-right: 1px solid black;
+  display: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+@media (min-width: 750px) {
+  .column3 {
+      border-right: 1px solid #E5E5E5;
+      
+  }
+}
+.about {
+  width: 85%;
+  height: -100%;
+  line-height: 90%;
+  font-size: 20px;
+  margin: 1vw;
+  font-family: “fingerpaint”;
+  display: flex;
+  -webkit-box-pack: center;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.about2 {
+  width: 92%;
+  height: -100%;
+  line-height: 150%;
+  font-size: 20px;
+  margin: 1vw;
+  font-family: “fingerpaint”;
+  
+}
+  
+.contacts p {
+  font-family: “fingerpaint”;
+  font-size: 20px;
+  line-height: 1100%;
+  width: 40%;
+  margin: 6vw;
+  display: flex;
+  -webkit-box-pack: center;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.phone {
+  font-family: “actorregular”;
+  font-size: 15px;
+  line-height: 150%;
+  width: 40%;
+  left: 38%;
+  top: -170px;
+  position: relative;
+  -webkit-box-pack: center;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-second-images {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: center;
+          display: flex;
+}
+.instagram {
+  width: 15%;
+  margin-bottom: 20px;
+  position: relative;
+  left: -90px;
+  top: -212px;
+  
+}
+.youtube {
+  width: 18%;
+  margin-bottom: 20px;
+  position: relative;
+  left: -87px;
+  top: -217px;
+}
+.column4 {
+  flex: 1;
+  height: 135%;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.example {
+  position: relative;
+  width: 75%;
+  left: -15px;
+  top: 1px;
+  transform: rotate(-5deg);
+}
+.example2 {
+  position: relative;
+  width: 75%;
+  left: 20px;
+  top: -30px;
+  transform: rotate(12deg);
+}
+.example3 {
+  position: relative;
+  width: 55%;
+  left: 45px;
+  top: -100px;
+  transform: rotate(2deg);
+}
+.example4 {
+  position: relative;
+  width: 28%;
+  left: -85px;
+  top: -165px;
+  transform: rotate(-5deg);
+}
+.example5 {
+  position: relative;
+  width: 75%;
+  left: -10px;
+  top: -160px;
+  transform: rotate(-12deg);
+}
+.example6 {
+  position: relative;
+  width: 75%;
+  left: 20px;
+  top: -215px;
+  transform: rotate(3deg);
+}
+.example7 {
+  position: relative;
+  width: 75%;
+  left: -20px;
+  top: -330px;
+  transform: rotate(-5deg);
+}
+.example8 {
+  position: relative;
+  width: 75%;
+  left: 25px;
+  top: -370px;
+  transform: rotate(2deg);
+}
+.finishedprojects {
+  display: block;
+  width: 204.99px;
+  height: 50px;
+  background-image: url(../imgs/finished\ projects.png);
+}
+
+.sketches {
+  display: block;
+  width: 167.45px;
+  height: 35.05px;
+  background-image: url(../imgs/sketches.png);
+  
+}
+.currentproject {
+  display: block;
+  width: 178.96px;
+  height: 41.01px;
+  background-image: url(../imgs/current\ project.png);
+  
+}
+.forsell{
+  display: block;
+  width: 163.04px;
+  height: 38.96px;
+  background-image: url(../imgs/for\ sell.png);
+  
+}
+  
+
+
+
